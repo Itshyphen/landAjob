@@ -1,0 +1,215 @@
+body{
+    font-family: 'Atma';font-size: 22px;
+}
+
+div.menu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+div.menu div a{
+    float: right;
+}
+div.menu a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+}
+.rgt{
+    background: maroon;
+}
+.half{
+    background-image: url("img.jpg");
+}
+div.menu a h1.logo{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 2.3rem;
+}
+
+div.menu a:hover {
+    background-color: #777;
+}
+div.menu div a:hover {
+    background-color: #333;
+}
+div.menu a.active{
+    background-image: url("img.jpg");
+}
+
+div.half{
+    height: 100%;
+    background-image: url("img.jpg");
+    background-repeat: repeat-y;
+    color: white;
+}
+div.searchdiv{
+    padding: 16px;
+    width: 40%;
+    height: auto;
+    max-height: 300px;
+    background: white;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin-top: 6%;
+}
+#mySearch{
+    padding: 10px;
+    margin: 10px;
+    width: 220px;
+}
+.searchbtn{
+    width: 220px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: #777777;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+.card,.ecard {
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    margin: 1%;
+    margin-left: 6%;
+}
+.ecard {
+    width: 95%;
+    margin: 2.5%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+/*.jobs .row1{*/
+/*    display: inline-block;*/
+/*}*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: acumin-pro, system-ui, sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-size: 14px;
+    background-color: #f4f4f4;
+    align-items: start;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 10px 7px 10px;
+    color: white;
+    background-color: darkslategray;
+    border-top: 1px solid #e5e5e5;
+}
+
+.addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+}
+
+.addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer address {
+    font-style: normal;
+    color: #999;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33);
+    border-radius: 100px;
+    color: white;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.ul a {
+    color: #999;
+}
+
+
+@media screen and (min-width: 40.375em) {
+    .nav > * {
+        flex: 1;
+    }
+
+    .addr {
+        flex: 1 0px;
+    }
+
+    .nav {
+        flex: 2 0px;
+    }
+}

@@ -1,0 +1,91 @@
+body{
+background-image: url("back.jpg");
+}
+.header{
+    height: 8%;
+    background: white;
+    opacity: 0.5;
+    padding: 10px;
+}
+.title h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Yu Gothic";
+}
+button{
+    float: right;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    background: blue;
+    opacity: 1;
+}
+button .reg{
+    width: 100px;
+    background: lawngreen;
+}
+button .signin{
+    width:100px;
+    background: blue;
+}
+.show {
+    display: none; /* Hidden by default */
+}
+.close{
+    padding: 5px;
+    float: right;
+    border: red;
+    background: red;
+}
+.container{
+    width: 650px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+}
+label{
+    float: left;
+}
+.registerbtn,.signinbtn{
+    width: 70%;
+    padding: 10px;
+    margin: 8px;
+    margin-bottom: 2px;
+    background: blue;
+    color: white;
+    border: blue;
+    float: left;
+}
+.abc{
+    border: none;
+    color: blue;
+    margin: 0;
+    margin-right: 50px;
+    padding: 0;
+    background: white;
+    font-size: 12px;
+    text-decoration: underline;
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Add a blue text color to links */
+a {
+    color: blue;
+}
